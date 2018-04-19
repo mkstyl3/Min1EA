@@ -18,7 +18,7 @@ app.set('view engine', 'jade');
 
 // Configurations
 app.use(cors());
-app.use(bodyParser.json()); // ExpressJS will parse the request before it got routed
+// ExpressJS will parse the request before it got routed
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
